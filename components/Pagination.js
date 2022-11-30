@@ -35,7 +35,7 @@ export const Pagination = ({ page }) => {
   if (page >= 5) {
     nextStyle = "hidden";
   } else {
-    nextStyle = "md:flex hidden";
+    nextStyle = "flex";
   }
   if (page <= 1 || !page) {
     prevStyle = "hidden";
