@@ -50,7 +50,7 @@ export const Pagination = ({ page }) => {
           href={`/store/page/${prev}`}
           className={`${prevStyle} border-2 border-red-300 rounded-lg py-1 px-2  flex-row space-x-2 font-mono`}
         >
-          <div>
+          <div className="hidden md:flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -104,7 +104,7 @@ export const Pagination = ({ page }) => {
           href={`/store/page/${next}`}
           className={`${nextStyle} border-2 border-red-300 rounded-lg py-1 px-2 flex-row space-x-2 font-mono`}
         >
-          <div>
+          <div className="hidden md:flex" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
