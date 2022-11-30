@@ -40,7 +40,7 @@ export const Pagination = ({ page }) => {
   if (page <= 1 || !page) {
     prevStyle = "hidden";
   } else {
-    prevStyle = "md:flex hidden";
+    prevStyle = "flex";
   }
   // console.log(color);
   return (
